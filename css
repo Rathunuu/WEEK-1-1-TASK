@@ -1,1 +1,67 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+/* Navigation - Flexbox */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Sections */
+section {
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Skills */
+ul {
+    margin-left: 20px;
+}
+
+/* Projects */
+article {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+/* Form */
+form {
+    margin-top: 15px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
