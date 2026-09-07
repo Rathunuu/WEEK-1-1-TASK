@@ -65,3 +65,29 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+/* Day 3 - Projects Grid */
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#projects h2 {
+    grid-column: 1 / -1;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #projects {
+        grid-template-columns: 1fr;
+    }
+
+}
